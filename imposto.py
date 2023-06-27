@@ -4,6 +4,8 @@ parcelas= int(input('Quantas parcelas?: '))
 
 valor_da_porcentagem = int(input('Qual o valor da porcentagem?: '))
 
+
+
 porcentagem = int((valor_do_emprestimo*valor_da_porcentagem)/100 )
 
 valor = valor_do_emprestimo + porcentagem

@@ -7,7 +7,7 @@ idade = ano_atual - ano_de_nascimento
 if idade >=0 and idade <=17:
     print(f' Você tem {idade} anos. Você é jovem')
 
-if idade >=18 and idade <=40:
+elif idade >=18 and idade <=49:
      print(f'Você tem {idade} anos. Você é maduro')
 
 else:
